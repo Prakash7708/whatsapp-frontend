@@ -82,7 +82,7 @@ const res= await axios.get("/getmsgs",{
               className="form-control"
               onChange={(e) => props.setMsgsend(e.target.value)}
             />
-            <button className="btn btn-success" onClick={()=>props.sendData(props.data)}>Send</button>
+            <button className="btn btn-success" onClick={()=>props.sendData(props.data)& e.preventDefault()}>Send</button>
             </form>
         </div>
         
