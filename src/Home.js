@@ -39,7 +39,7 @@ function Home() {
   }
   let sendData = async (data) => {
      //alert(data.receivername)
-     e.preventDefault();
+    // e.preventDefault();
      let postmsg={
          sendername:data.sendername,
          receivername:data.receivername,
